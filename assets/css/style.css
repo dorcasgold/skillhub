@@ -1,0 +1,129 @@
+:root {
+  --color-general: #3fba96;
+  --color-deep-blue: #212832;
+  --color-deep-blue-text: #202246;
+  --color-deep-blue-text-b: #212730;
+  --color-gray: #b8b8b8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  margin: 30px 50px;
+}
+
+/* homepage */
+.homepage {
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .middle-nav-div a {
+  padding: 0px 20px;
+  color: var(--color-deep-blue-text);
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.3s;
+}
+
+nav .right-nav-div button {
+  padding: 12px 46px;
+  border: 1px solid var(--color-general);
+  border-radius: 4px;
+  background-color: var(--color-general);
+  color: white;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.homepage_hero {
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.homepage_hero_text {
+  font-size: 60px;
+  font-weight: 600;
+  width: 750px;
+}
+
+.homepage_hero_text p {
+  margin-bottom: 2px;
+}
+
+.homepage_hero_text p:first-child {
+  color: var(--color-general);
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.homepage_hero_text .last {
+  color: var(--color-deep-blue-text);
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 35px;
+  margin-top: 2.5rem;
+}
+
+.header-form {
+  display: flex;
+  margin-top: 2rem;
+  align-items: baseline;
+}
+
+.header-form img {
+  width: 30px;
+  position: absolute;
+  vertical-align: middle;
+  bottom: -10%;
+  left: 5%;
+}
+
+.search-text {
+  height: 60px;
+  width: 70%;
+  font-size: 18px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 45px;
+  border-radius: 8px;
+  border: 1px solid #cccccc;
+}
+
+.submit {
+  height: 62px;
+  width: 180px;
+  border-radius: 5px;
+  margin-left: -2%;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  background: var(--color-general);
+}
