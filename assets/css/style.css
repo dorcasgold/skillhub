@@ -15,6 +15,7 @@
   list-style: none;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
+  color: var(--color-deep-blue-text);
 }
 
 body {
@@ -101,8 +102,8 @@ nav .right-nav-div button {
   width: 30px;
   position: absolute;
   vertical-align: middle;
-  bottom: -10%;
-  left: 5%;
+  bottom: 3%;
+  left: 1%;
 }
 
 .search-text {
@@ -126,4 +127,47 @@ nav .right-nav-div button {
   font-size: 18px;
   font-weight: 400;
   background: var(--color-general);
+}
+
+/* job-section */
+.job-section {
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.job-section .job-section-img {
+  width: 600px;
+}
+
+.job-section .job-section-text h1 {
+  font-size: 48px;
+}
+
+.job-section-text {
+  margin-top: -1rem;
+}
+
+.job-section-text .p {
+  width: 35vw;
+  font-size: 20px;
+  line-height: 2.1rem;
+  margin-top: 2rem;
+  font-weight: 400;
+}
+
+.job-section-text p {
+  margin-bottom: 8px;
+}
+
+.job-section-text button {
+  height: 62px;
+  width: 200px;
+  background-color: var(--color-general);
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  margin-top: 2.3rem;
 }
