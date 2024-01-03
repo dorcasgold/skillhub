@@ -341,12 +341,12 @@ h3 {
 }
 
 .swiper-navBtn {
-  color: var(--color-general);
+  color: #0a908a;
   transition: color 0.3s ease;
 }
 
 .swiper-navBtn:hover {
-  color: #4070F4;
+  color: #0a908a;
 }
 
 .swiper-navBtn::before,
@@ -363,12 +363,12 @@ h3 {
 }
 
 .swiper-pagination-bullet {
-  background-color: var(--color-general);
+  background-color: #0a908a;
   opacity: 1;
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #4070F4;
+  background-color: #0a908a;
 }
 
 @media screen and (max-width: 768px) {
@@ -379,4 +379,64 @@ h3 {
   .swiper-navBtn {
     display: none;
   }
+}
+
+.do-you-have-any-query {
+  width: 100%;
+  margin: 3rem 0px;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: 30rem 40rem 15rem;
+}
+
+.grid-bg {
+  position: relative;
+  right: 10rem;
+  left: -9.3rem;
+  top: -4rem;
+}
+
+.container-grid .grid-image>img {
+  width: 115%;
+}
+
+.grid-bg img {
+  position: absolute;
+  z-index: -1;
+}
+
+.container-grid .grid-form .header-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-grid .grid-form .header-form h1 {
+  font-size: 45px;
+  margin-top: 5rem;
+}
+
+.container-grid .grid-form .header-form p {
+  font-size: 1.32em;
+  margin: 1.3rem 0px;
+  color: var(--color-deep-blue);
+}
+
+.flex-div {
+  display: flex;
+}
+
+.flex-div .search-text {
+  margin-right: 0rem;
+  margin-left: -1.8rem;
+  width: 22em;
+}
+
+.flex-div .search-icon {
+  position: relative;
+  vertical-align: middle;
+  bottom: 3%;
+  left: 1.8%;
+  object-fit: contain;
 }
