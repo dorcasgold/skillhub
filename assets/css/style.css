@@ -26,14 +26,11 @@ img {
   width: 100%;
 }
 
-.container {
-  margin: 30px 50px;
-}
-
 /* homepage */
 .homepage {
   display: flex;
   flex-direction: column;
+  margin: 30px 50px;
 }
 
 .homepage nav {
@@ -53,7 +50,7 @@ nav .middle-nav-div a {
 nav .right-nav-div button {
   padding: 12px 46px;
   border: 1px solid var(--color-general);
-  border-radius: 4px;
+  border-radius: 30px;
   background-color: var(--color-general);
   color: white;
   font-size: 18px;
@@ -174,7 +171,7 @@ nav .right-nav-div button {
 
 /* How-it-works */
 .How-it-works {
-  margin-top: 8rem;
+  margin: 8rem 50px;
 }
 
 .center-text {
@@ -439,4 +436,105 @@ h3 {
   bottom: 3%;
   left: 1.8%;
   object-fit: contain;
+}
+
+/* footer */
+
+.footer {
+  background: var(--color-deep-blue);
+  padding: 5rem 2rem;
+  width: 100%;
+}
+
+.footer .footer-grid {
+  display: grid;
+  align-items: baseline;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 4rem;
+  grid-row-gap: 4rem;
+  grid-template-columns: 2.5fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  vertical-align: top;
+
+}
+
+.footer .footer-grid .grid-1 .logo-white {
+  width: 10rem;
+  object-fit: contain;
+}
+
+.footer .footer-grid .grid-1>p {
+  font-size: 21px;
+  line-height: 32px;
+  padding: 18px 0px;
+  color: whitesmoke;
+}
+
+.social-media-icons {
+  padding: 1px 0px;
+}
+
+.social-media-icons .fa-brands {
+  font-size: 2em;
+  padding-right: 15px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.social-media-icons .fa-twitter {
+  color: #1DA1F2;
+}
+
+.social-media-icons .fa-facebook-f {
+  color: #4267B2;
+}
+
+.social-media-icons .instagram {
+  width: 1.25em;
+}
+
+.social-media-icons .fa-linkedin {
+  color: #0077b5;
+}
+
+.heading {
+  color: whitesmoke;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.footer-link {
+  color: #b8b8b8;
+  margin-bottom: 20px;
+  transition: all 1s ease;
+}
+
+.footer-link:hover {
+  color: #777e90;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background: var(--color-deep-blue);
+}
+
+.footer-bottom .bottom-left,
+.bottom-right {
+  display: flex;
+  align-items: baseline;
+  font-size: 1.3rem;
+}
+
+.footer-bottom .bottom-left .fa-copyright {
+  padding-right: 10px;
+}
+
+.footer-bottom .bottom-left p,
+.fa-copyright,
+.bottom-right p {
+  color: white;
 }
