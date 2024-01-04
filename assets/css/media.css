@@ -281,7 +281,6 @@
   .footer-bottom .bottom-left p,
   .fa-copyright,
   .bottom-right p {
-    color: white;
     font-size: 1.19rem;
   }
 }
@@ -462,6 +461,96 @@
   .header-form img {
     width: 28px;
     bottom: 6%;
-    left: 7%;
+  }
+
+  .job-section {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .job-section .job-section-img {
+    width: 45rem;
+    margin-left: -2rem;
+  }
+
+  .job-section .job-section-text h1 {
+    font-size: 40px;
+  }
+
+  .job-section-text .p {
+    font-size: 18px;
+  }
+
+  .center-text h2 {
+    font-size: 3rem;
+  }
+
+  .flex {
+    flex-direction: row;
+    margin-top: 4rem;
+  }
+
+  .flex-image img {
+    width: 38rem;
+  }
+
+  .card {
+    width: 30rem;
+    flex-direction: row;
+  }
+
+  .center-content {
+    margin-top: -5rem;
+  }
+
+  .container-grid {
+    display: grid;
+    grid-template-columns: 30rem 40rem 15rem;
+  }
+
+  .grid-bg {
+    right: 10rem;
+    left: -3.1rem;
+    top: -5rem;
+    width: 12rem;
+  }
+
+  .flex-div {
+    flex-direction: row;
+  }
+
+  .b {
+    margin-left: -1%;
+  }
+
+  .container-grid .grid-image>img {
+    width: 100%;
+    margin-left: 5rem;
+  }
+
+  .footer .footer-grid {
+    grid-template-columns: 2.5fr 1fr 1fr 1fr;
+    text-align: unset;
+  }
+
+  .footer .footer-grid .grid-1>p {
+    font-size: 20px;
+    padding: 15px 40px;
+  }
+
+  .footer .footer-grid .grid-1 .logo-white {
+    margin-left: 2rem;
+  }
+
+  .footer {
+    padding: 3.9rem 0.1rem;
+  }
+
+  .footer-bottom {
+    flex-direction: row;
+  }
+
+  .social-media-icons {
+    padding: 1px 42px;
   }
 }

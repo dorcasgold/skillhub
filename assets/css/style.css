@@ -540,5 +540,12 @@ h3 {
 .footer-bottom .bottom-left p,
 .fa-copyright,
 .bottom-right p {
-  color: white;
+  color: #b8b8b8;
+}
+
+.footer-bottom .bottom-left p,
+.fa-copyright,
+.bottom-right p:hover {
+  color: #777e90;
+  cursor: pointer;
 }
