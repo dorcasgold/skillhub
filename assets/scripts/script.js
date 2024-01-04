@@ -38,9 +38,7 @@ menu_btn.addEventListener('click', function () {
 
 var loader = document.querySelector('.preloader');
 
-window.addEventListener('load', function () {
-  // Set a timeout to hide the loader after 5 seconds
-  setTimeout(function () {
-    loader.style.display = 'none';
-  }, 3000); // 5000 milliseconds = 5 seconds
-});
+// Set a timeout to hide the loader before the page loads
+setTimeout(function () {
+  loader.style.display = 'none';
+}, 1000);
