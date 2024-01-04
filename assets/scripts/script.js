@@ -36,8 +36,11 @@ menu_btn.addEventListener('click', function () {
   mobile_menu.classList.toggle('is-active');
 })
 
-var loader = document.querySelector('.preloader')
+var loader = document.querySelector('.preloader');
 
 window.addEventListener('load', function () {
-  loader.style.display = 'none'
-})
+  // Set a timeout to hide the loader after 5 seconds
+  setTimeout(function () {
+    loader.style.display = 'none';
+  }, 5000); // 5000 milliseconds = 5 seconds
+});
