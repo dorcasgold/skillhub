@@ -447,7 +447,21 @@
 }
 
 @media (min-width: 1200px) {
-  .homepage_hero {
+
+  .homepage_hero,
+  .header-form {
     flex-direction: row;
+  }
+
+  .search-text {
+    width: 90%;
+    height: 52px;
+    margin-bottom: 1em;
+  }
+
+  .header-form img {
+    width: 28px;
+    bottom: 6%;
+    left: 7%;
   }
 }
