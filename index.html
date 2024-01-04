@@ -13,6 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
   <!-- Swiper CSS -->
+  <link rel="stylesheet" href="assets/css/media.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
   <title>Document</title>
@@ -22,7 +23,7 @@
   <div class="container">
     <!-- homepage -->
     <div class="homepage">
-      <nav class="focus-in-contract-bck">
+      <nav class="nav focus-in-contract-bck">
         <div class="left-nav-div">
           <a href="#"><img loading="lazy" src="assets/images/skillhub_logo.png" alt="skillhub logo"></a>
         </div>
@@ -32,11 +33,14 @@
           <a href="#" class="hvr-float">Resources</a>
           <a href="#" class="hvr-float">Online Learning</a>
         </div>
+        <button class="hamburger">
+          <div class="bar"></div>
+        </button>
         <div class="right-nav-div">
           <button class="btn">Log In</button>
         </div>
-
       </nav>
+
       <div class="homepage_hero">
         <div class="homepage_hero_text scale-in-hor-left">
           <p>Grow yourself with us</p>
@@ -58,6 +62,15 @@
         <div class="homepage_hero_img scale-in-right">
           <img loading="lazy" src="assets/images/Student1.png" alt="Student">
         </div>
+      </div>
+    </div>
+    <!-- mobile-nav -->
+    <div class="mobile-nav">
+      <div class="center-links">
+        <a href="#" class="hvr-float">About Us</a>
+        <a href="#" class="hvr-float">Courses</a>
+        <a href="#" class="hvr-float">Resources</a>
+        <a href="#" class="hvr-float">Online Learning</a>
       </div>
     </div>
     <!-- job section -->
@@ -237,7 +250,7 @@
               <img src="assets/images/search.png" class="search-icon">
               <input type="text" required class="search-text" maxlength="200" name="name"
                 placeholder="Search course title" id="name">
-              <input type="submit" class="submit" value="Search">
+              <input type="submit" class="submit b" value="Search">
             </div>
           </form>
         </div>
@@ -295,7 +308,6 @@
 </body>
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
 <script src="assets/scripts/script.js"></script>
 <script src="assets/scripts/swiper-bundle.min.js"></script>
 

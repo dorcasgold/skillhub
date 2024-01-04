@@ -1,0 +1,332 @@
+/* nav bar */
+
+@media screen and (max-width: 1000px) {
+
+  .right-nav-div,
+  .middle-nav-div {
+    display: none;
+  }
+
+  .hamburger {
+    width: 45px !important;
+  }
+}
+
+/*  */
+.hamburger {
+  position: relative;
+  width: 0px;
+  cursor: pointer;
+  background: none;
+  appearance: none;
+  outline: none;
+  border: none;
+}
+
+.hamburger .bar,
+.hamburger::after,
+.hamburger::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: red;
+  margin: 6px 0px;
+  transition: 0.4s;
+}
+
+.hamburger.is-active::before {
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.hamburger.is-active::after {
+  transform: rotate(45deg) translate(-9px, -8px);
+}
+
+.hamburger.is-active .bar {
+  opacity: 0;
+}
+
+.mobile-nav {
+  display: block;
+  position: fixed;
+  top: 18%;
+  left: 100%;
+  width: 100%;
+  min-height: 8vh;
+  z-index: 98;
+  background: #3fba96;
+  padding: 2rem 10px;
+  transition: 0.4s;
+}
+
+.mobile-nav.is-active {
+  left: 0;
+}
+
+.mobile-nav a {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
+  margin: 0 auto 15px;
+  padding: 12px 14px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.mobile-nav a:hover {
+  color: whitesmoke;
+}
+
+/* nav bar */
+
+/* responsivenes */
+@media (min-width: 320px) {
+  .homepage {
+    margin: 20px 30px;
+  }
+
+  .homepage_hero {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+  }
+
+  .homepage_hero_text {
+    font-size: 32px;
+    font-weight: 600;
+    width: 300px;
+    padding: 0px 1rem;
+  }
+
+  .homepage_hero_text .last {
+    font-size: 15px;
+  }
+
+  .header-form {
+    flex-direction: column;
+  }
+
+  .search-text {
+    width: 95%;
+    margin-bottom: 1em;
+  }
+
+  .submit {
+    height: 53px;
+  }
+
+  .header-form img {
+    width: 30px;
+    bottom: 17%;
+    left: 7%;
+  }
+
+  .homepage_hero_img {
+    width: 19rem;
+    margin-left: -1rem;
+    margin-top: 3rem;
+  }
+
+  .job-section {
+    margin: 1rem 0px;
+    flex-direction: column;
+  }
+
+  .job-section .job-section-img {
+    width: 320px;
+    margin-left: -5rem;
+  }
+
+  .job-section-text {
+    margin-top: 0.4rem;
+    margin-left: 1rem;
+  }
+
+  .job-section .job-section-text h1 {
+    font-size: 33px;
+  }
+
+  .job-section-text .p {
+    width: unset;
+    font-size: 17px;
+  }
+
+  .How-it-works {
+    margin: 8rem 10px;
+  }
+
+  .center-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1.7rem;
+  }
+
+  .center-text {
+    text-align: unset;
+    margin-left: 0.5rem;
+  }
+
+  .center-text small {
+    width: unset;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 21.3rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  small {
+    font-size: 1rem;
+    line-height: 1.8rem;
+  }
+
+  .card-icon span {
+    font-size: 2.5rem;
+  }
+
+  .flex-image {
+    margin: 3rem 8px;
+  }
+
+  .Our-popular-courses {
+    width: unset;
+    text-align: unset;
+    margin-left: 1rem;
+  }
+
+  .Our-popular-courses p {
+    font-size: 1.2rem;
+  }
+
+  .container-grid {
+    display: unset;
+    grid-template-columns: unset;
+  }
+
+  .container-grid .grid-image>img {
+    width: 95%;
+  }
+
+  .grid-bg {
+    right: 10rem;
+    left: 18.7rem;
+    top: -38rem;
+    width: 5rem;
+  }
+
+  .container-grid .grid-form .header-form {
+    margin-left: 1rem;
+  }
+
+  .container-grid .grid-form .header-form h1 {
+    font-size: 35px;
+    margin-top: 5rem;
+  }
+
+  .flex-div {
+    flex-direction: column;
+  }
+
+  .flex-div .search-text {
+    margin-left: 0.2rem;
+    width: 18em;
+  }
+
+  .flex-div .search-icon {
+    display: none;
+  }
+
+  .b {
+    margin-left: 3%;
+  }
+
+  .footer .footer-grid {
+    display: grid;
+    grid-row-gap: 2rem;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer .footer-grid .grid-1>p {
+    font-size: 16px;
+    line-height: 31px;
+    padding: 15px 0px;
+  }
+
+  .heading {
+    font-size: 23px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-bottom .bottom-left,
+  .bottom-right {
+    margin: 1rem 0px;
+  }
+
+  .footer-bottom .bottom-left p,
+  .fa-copyright,
+  .bottom-right p {
+    color: white;
+    font-size: 1.19rem;
+  }
+}
+
+@media (min-width: 410px) {
+  .homepage_hero_text {
+    font-size: 42px;
+    width: 440px;
+  }
+
+  .homepage_hero_text {
+    padding: 0px 2rem;
+  }
+
+  .homepage_hero_text .last {
+    font-size: 17px;
+  }
+
+  .homepage_hero_img {
+    width: 24rem;
+  }
+
+  .job-section-text {
+    margin-left: 2rem;
+  }
+
+  .job-section-text .p {
+    font-size: 20px;
+  }
+
+  .card {
+    width: 24rem;
+  }
+
+  .center-content {
+    margin-top: -8rem;
+  }
+
+  .Our-popular-courses p {
+    font-size: 1.38rem;
+  }
+}
+
+@media (min-width: 420px) {
+  .How-it-works {
+    margin-left: 13px;
+  }
+
+  .card {
+    width: 24.3rem;
+  }
+}
