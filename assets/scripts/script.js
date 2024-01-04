@@ -35,3 +35,9 @@ menu_btn.addEventListener('click', function () {
   menu_btn.classList.toggle('is-active');
   mobile_menu.classList.toggle('is-active');
 })
+
+var loader = document.querySelector('.preloader')
+
+window.addEventListener('load', function () {
+  loader.style.display = 'none'
+})
