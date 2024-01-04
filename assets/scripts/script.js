@@ -42,5 +42,5 @@ window.addEventListener('load', function () {
   // Set a timeout to hide the loader after 5 seconds
   setTimeout(function () {
     loader.style.display = 'none';
-  }, 5000); // 5000 milliseconds = 5 seconds
+  }, 3000); // 5000 milliseconds = 5 seconds
 });
