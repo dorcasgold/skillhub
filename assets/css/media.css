@@ -88,6 +88,10 @@
     margin: 20px 30px;
   }
 
+  .footer {
+    width: 107%;
+  }
+
   .homepage_hero {
     flex-direction: column;
     align-items: center;
@@ -142,7 +146,7 @@
 
   .job-section-text {
     margin-top: 0.4rem;
-    margin-left: 1rem;
+    margin-left: 0.9rem;
   }
 
   .job-section .job-section-text h1 {
@@ -300,10 +304,6 @@
     width: 24rem;
   }
 
-  .job-section-text {
-    margin-left: 2rem;
-  }
-
   .job-section-text .p {
     font-size: 20px;
   }
@@ -328,5 +328,126 @@
 
   .card {
     width: 24.3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .homepage_hero_text {
+    font-size: 50px;
+    width: 48rem;
+  }
+
+  .homepage_hero_text .last {
+    font-size: 21px;
+  }
+
+  .header-form img {
+    left: 6%;
+  }
+
+  .homepage_hero_img {
+    width: 45rem;
+    margin-left: -4rem;
+  }
+
+  .job-section .job-section-img {
+    width: 40rem;
+    margin-left: -10rem;
+  }
+
+  .job-section .job-section-text h1 {
+    font-size: 45px;
+    font-weight: 700;
+  }
+
+  .How-it-works {
+    margin-top: 5rem;
+  }
+
+  .How-it-works {
+    margin-left: 20px;
+  }
+
+  .center-text {
+    text-align: center;
+  }
+
+  .center-text h2 {
+    font-size: 4rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .center-text small {
+    width: 23rem;
+    font-size: 1.3rem;
+  }
+
+  .cards {
+    margin-left: 2rem;
+  }
+
+  .card {
+    width: 40rem;
+  }
+
+  .card-text small {
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+  }
+
+  .center-content {
+    margin-top: -12rem;
+  }
+
+  .Our-popular-courses {
+    width: 28rem;
+    text-align: center;
+  }
+
+  .flex-image img {
+    width: 40rem;
+  }
+
+  .container-grid .grid-image>img {
+    width: 80%;
+  }
+
+  .grid-bg {
+    right: 10rem;
+    left: 32rem;
+    top: -60rem;
+    width: 13rem;
+  }
+
+  .container-grid .grid-form .header-form {
+    margin-left: 2rem;
+  }
+
+  .container-grid .grid-form .header-form h1 {
+    font-size: 45px;
+    margin-top: 4rem;
+  }
+
+  .footer {
+    background: var(--color-deep-blue);
+    padding: 5rem 0.1rem;
+    width: 100%;
+  }
+
+  .footer .footer-grid {
+    display: grid;
+    align-items: baseline;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 4rem;
+    grid-template-columns: 13rem 8rem 8rem 8rem;
+    grid-template-rows: auto;
+    vertical-align: top;
+  }
+}
+
+@media (min-width: 1200px) {
+  .homepage_hero {
+    flex-direction: row;
   }
 }

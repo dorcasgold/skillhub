@@ -18,6 +18,10 @@
   color: var(--color-deep-blue-text);
 }
 
+html {
+  margin: 0;
+}
+
 body {
   height: 100vh;
 }
