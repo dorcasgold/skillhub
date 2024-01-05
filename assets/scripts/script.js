@@ -42,3 +42,4 @@ var loader = document.querySelector('.preloader');
 setTimeout(function () {
   loader.style.display = 'none';
 }, 1000);
+
