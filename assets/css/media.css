@@ -89,7 +89,7 @@
   }
 
   .footer {
-    width: 107%;
+    width: 100%;
   }
 
   .homepage_hero {
@@ -318,6 +318,14 @@
   .Our-popular-courses p {
     font-size: 1.38rem;
   }
+
+  .footer {
+    width: 103%;
+  }
+
+  .footer-bottom {
+    width: 103%;
+  }
 }
 
 @media (min-width: 420px) {
@@ -330,6 +338,7 @@
   }
 }
 
+/* ----------------- 768 ---------------------------- */
 @media (min-width: 768px) {
   .homepage_hero_text {
     font-size: 50px;
@@ -445,6 +454,7 @@
   }
 }
 
+/* --------------- 12000px ---------------------- */
 @media (min-width: 1200px) {
 
   .homepage_hero,
