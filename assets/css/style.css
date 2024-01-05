@@ -550,3 +550,12 @@ h3 {
   color: #777e90;
   cursor: pointer;
 }
+
+.preloader {
+  background: white url(../images/Hourglass.gif) no-repeat center center;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  /* background-size: 15%; */
+}
