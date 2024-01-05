@@ -97,12 +97,3 @@ ScrollReveal().reveal('.footer', {
   origin: "bottom",
   reset: true
 });
-
-ScrollReveal().reveal('.footer-bottom', {
-  delay: 75,
-  duration: 1500,
-  opacity: 0,
-  distance: "50%",
-  origin: "bottom left",
-  reset: true
-});
