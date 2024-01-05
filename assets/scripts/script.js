@@ -35,11 +35,3 @@ menu_btn.addEventListener('click', function () {
   menu_btn.classList.toggle('is-active');
   mobile_menu.classList.toggle('is-active');
 })
-
-var loader = document.querySelector('.preloader');
-
-// Set a timeout to hide the loader before the page loads
-setTimeout(function () {
-  loader.style.display = 'none';
-}, 1000);
-

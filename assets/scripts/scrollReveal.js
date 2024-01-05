@@ -8,20 +8,20 @@ ScrollReveal().reveal('.homepage_hero_text', {
 });
 
 ScrollReveal().reveal('.homepage_hero_img', {
-  delay: 75,
+  delay: 80,
   duration: 2000,
   opacity: 0,
   distance: "50%",
-  origin: "bottom right",
+  origin: "right",
   reset: true
 });
 
 
-ScrollReveal().reveal('.homepage_hero_text', {
-  delay: 75,
+ScrollReveal().reveal('.job-section-img', {
+  delay: 80,
   duration: 1500,
   opacity: 0,
   distance: "50%",
-  origin: "left",
+  origin: "bottom",
   reset: true
 });
