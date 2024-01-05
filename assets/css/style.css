@@ -18,17 +18,18 @@
   color: var(--color-deep-blue-text);
 }
 
-html {
-  margin: 0;
+body {
+  overflow: hidden;
 }
 
 body {
   width: 100%;
-  overflow-x: hidden;
+  height: 100vh;
+  box-sizing: border-box;
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 /* homepage */
