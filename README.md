@@ -1,4 +1,4 @@
-![Screenshot of a Skillhub](mobile.png)
+![Screenshot of a Skillhub](/mobile.png)
 
 # Skillhub
 Skillhub is an Education Landing Page crafted by **Caddyflow Webflow Agency**.
